@@ -1,0 +1,113 @@
+*{
+    color: white;
+    font-family: sans-serif; 
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #222222;
+}
+.renk{
+    color:#989898;
+}
+.alex{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+.logo{
+    font-size: 28px;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding: 40px 300px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.texts{
+    display: flex;
+    gap:40px ;
+}
+a{
+    color: #989898;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+.ben img{
+    width:300px;
+    height: 300px;
+    border: #444444 15px solid;
+    border-radius: 50%;
+}
+.ben{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.resim-text{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.benText{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.benButtons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.benButton{
+    width: auto;
+    background-color: #333333;
+    outline: 3px solid #bababa;
+    border: none;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 10px 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.benButton:hover{
+    outline-color: #0779e5;
+}
+.whatido{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 300px;
+    gap: 50px;
+}
+.wTexts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+.bolum1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.bolum2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
