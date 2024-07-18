@@ -6,6 +6,7 @@
 }
 body{
     background-color: #222222;
+    padding: 0px 20%;
 }
 .renk{
     color:#989898;
@@ -16,24 +17,41 @@ body{
     font-weight: bold;
 }
 .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-text{
     font-size: 28px;
-    
+}
+.logo-img{
+    width: 40px;
+    border: 0px solid white;
+    border-radius: 50%;
 }
 .header{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    padding: 40px 300px;
+    padding: 40px 0px;
 }
 .menu{
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 20px;
+}
+.menu-img{
+    display: none;
+    width: 30px;
+    cursor: pointer;
 }
 .texts{
     display: flex;
-    gap:40px ;
+    gap:60px ;
+    font-size: 16px;
 }
 a{
     color: #989898;
@@ -48,21 +66,21 @@ a:hover{
     border: #444444 15px solid;
     border-radius: 50%;
 }
-.ben{
+.resim {
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
 }
-.resim-text{
+.ben{
+    width: 100%;
     display: flex;
-    gap: 40px;
     justify-content: center;
     align-items: center;
+    padding: 80px 0px;
+    gap: 40px;
 }
 .benText{
-    width: 30%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -83,7 +101,6 @@ a:hover{
     padding: 10px 30px;
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 .benButton:hover{
     outline-color: #0779e5;
@@ -92,22 +109,75 @@ a:hover{
     display: flex;
     flex-direction: column;
     padding: 80px 300px;
-    gap: 50px;
+    gap: 40px;
+}
+.underline{
+    height: 2px;
+    width: 9%;
+    background-color: #0779e5;
 }
 .wTexts{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    
+}
+.w-img{
+    display: flex;
+    gap: 100px;
+}
+.pencil{
+    width: 50px;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0px;
+    gap: 30px;
+}
+.main-headers{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.main-header{
+    font-size: 24px;
+}
+.mainm{
+    display: flex;
+    gap: 40px;
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 .bolum1{
     display: flex;
-    flex-direction: column;
-    gap: 30px;
+    flex-direction: row;
+    gap: 20px;
 }
-.bolum2{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.bolum1 img{
+    width: 60px;
+}
+
+@media screen and (max-width: 820px) {
+    .mainm{
+        flex-direction: column;
+    }
+    .ben{
+        flex-direction: column;
+    }
+    .benButtons{
+        justify-content: center;
+    }
+    .texts{
+        display: none;
+    }
+    .menu-img{
+        display: block;
+        width: 30px;
+    }
 }
